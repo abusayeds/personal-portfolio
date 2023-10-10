@@ -1,0 +1,54 @@
+[   
+
+    {
+      "id": "1",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png",
+      "name": " HTML"
+    
+    },
+    {
+      "id": "1",
+      "picture": "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png",
+      "name": "   CSS"
+    
+    },
+   
+    {
+      "id": "1",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "name": "Java script"
+     
+    },
+    {
+      "id": "1",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201",
+      "name": "Type script"
+     
+    },
+    {
+      "id": "1",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      "name": "React js"
+     
+    },
+    {
+      "id": "1",
+      "picture": "https://e7.pngegg.com/pngimages/240/632/png-clipart-deploying-node-js-website-development-javascript-web-application-vue-js-text-rectangle.png",
+      "name": "Node js"
+     
+    },
+    {
+      "id": "1",
+      "picture": "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+      "name": "Tailwind"
+     
+    },
+    {
+      "id": "1",
+      "picture": "https://img.freepik.com/premium-vector/bootstrap-icon-b-letter-logo_781017-7.jpg",
+      "name": "Bootstrap"
+     
+    }
+   
+ 
+  ]

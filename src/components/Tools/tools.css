@@ -1,0 +1,19 @@
+/* .tools{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    align-items: center;
+    
+} */
+.zoom{
+  overflow: hidden;
+  transition: transfrom 3s ease;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+    .tools{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+}

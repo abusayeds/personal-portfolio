@@ -1,11 +1,22 @@
+.home-1{
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+    align-items: center;
+}
 
-/* .home-icon{
-    border-radius: 100%;
-    padding: 4px;
-} */
+@media screen and (max-width:768px) {
+    .home-1{
+     display: block;
+    justify-content: center;
+    
+    }
+}
+.button{
+    padding: 4px 20px;
+    border-radius: 30px;
+}
 
-
-@media screen and (min-width:769px) {
+/* @media screen and (min-width:769px) {
     .home-link-container {
      display: none;
     }
@@ -14,4 +25,4 @@
     .home-container {
         width: 100%;
     }
-}
+} */

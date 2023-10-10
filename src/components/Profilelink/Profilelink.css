@@ -1,17 +1,9 @@
+.link-container{
+    position: relative;
+    top: 0px;
+}
 
 
-.icon{
-    background-color: blue;
-    color: white;
-    height: 40px;
-    width: 40px;
-    border-radius: 100px;
-    padding: 5px;
-}
-.icon:hover {
-    background-color: rgb(8, 8, 10);
-    color: whitesmoke;
-}
 @media screen and (max-width: 768px) {
     .link-container{
     display: none;

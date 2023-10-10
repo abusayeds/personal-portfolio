@@ -26,8 +26,8 @@ const Header = () => {
     return (
 
 
-        <div className='header-container'>
-          <Disclosure as="nav" className="bg-gray-800">
+        <div className='header-container  '>
+          <Disclosure as="nav" className="bg-gray-800 rounded md:w-4/5 m-auto ">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -69,18 +69,11 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  {/* <button
-                    type="button"
-                    className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                  >
-                    <span className="absolute -inset-1.5" />
-                    <span className="sr-only">View notifications</span>
-                    <BellIcon className="h-6 w-6" aria-hidden="true" />
-                  </button> */}
+                 
   
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative ml-3">
-                    <div>
+                    <div className='zoom'>
                       <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 mr-8">
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only"></span>

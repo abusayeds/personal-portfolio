@@ -32,7 +32,7 @@ function App() {
     ])
 
   return (
-    <div>
+    <div className='bg-gray-600 text-white '>
      <RouterProvider
      router={router}
      ></RouterProvider>
